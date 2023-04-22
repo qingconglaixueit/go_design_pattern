@@ -3,7 +3,11 @@
 package main
 
 import "fmt"
-
+//  建一座建筑，无论你是冰室，还是住房，大体会经历如下步骤
+// 1. 搭建框架
+// 2. 装修
+// 3. 安装门
+// 4. 安装床
 func main() {
 	b := GetBuild("ice")
 	if b == nil {
