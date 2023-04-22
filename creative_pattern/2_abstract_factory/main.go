@@ -4,7 +4,7 @@
 package main
 
 import "fmt"
-
+// 一个大卖场，有衣服，有 鞋子，有 NB 品牌，有 Nike 品牌，此时我们就可以使用抽象工厂，抽象品牌，品牌下面有多种产品
 func main() {
 
 	nb,_ := GetShopFac("NB")
